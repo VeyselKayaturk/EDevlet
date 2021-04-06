@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-06T11:44:47.947Z",
+        "line": 11,
+        "name": "Uygulamaya başarılı giriş testi senaryosu",
+        "description": "",
+        "id": "uygulamaya-giriş-testi;uygulamaya-başarılı-giriş-testi-senaryosu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7453000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser açıldı",
+            "match": {
+              "location": "StepDefinitions.Login.browser_açıldı()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15060000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanıcı edevlet adresine gider ve 26503940896 ile edevlet123 girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26503940896",
+                  "offset": 36
+                },
+                {
+                  "val": "edevlet123",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinitions.Login.kullanıcı_edevlet_adresine_gider_ve_ile_girer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3605000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanıcı giriş yapar ve tekrar çıkış yapar",
+            "match": {
+              "location": "StepDefinitions.Login.kullanıcı_giriş_yapar_ve_tekrar_çıkış_yapar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ActiveTest"
+          }
+        ]
+      }
+    ],
+    "name": "Uygulamaya Giriş Testi",
+    "description": "",
+    "id": "uygulamaya-giriş-testi",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@ActiveTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
