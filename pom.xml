@@ -67,7 +67,6 @@
             <version>5.0.7</version>
         </dependency>
 
-
     </dependencies>
     <!-- burası raporlamada görsel ve logsal olarak daha iyi raporlar generate ediyor -->
     <build>

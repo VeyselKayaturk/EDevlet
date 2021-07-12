@@ -1,10 +1,10 @@
-@ActiveTest
+
 Feature: Uygulamaya Giriş Testi
 
   Scenario Outline: Uygulamaya başarılı giriş testi senaryosu
     Given browser açıldı
     When kullanıcı edevlet adresine gider ve <tckn> ile <sifre> girer
-    Then kullanıcı giriş yapar ve tekrar çıkış yapar
+    Then kullanıcı çıkış yapar
 
    Examples:
      |   tckn    |  sifre  |

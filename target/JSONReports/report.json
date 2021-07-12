@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-04-06T11:44:47.947Z",
+        "start_timestamp": "2021-04-07T07:13:12.503Z",
         "line": 11,
         "name": "Uygulamaya başarılı giriş testi senaryosu",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7453000000,
+              "duration": 7381000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 15060000000,
+              "duration": 15228000000,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3605000000,
+              "duration": 3523000000,
               "status": "passed"
             },
             "line": 7,

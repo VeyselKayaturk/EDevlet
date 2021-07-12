@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.367">
-<testcase classname="Uygulamaya Giriş Testi" name="Uygulamaya başarılı giriş testi senaryosu" time="26.207">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.428">
+<testcase classname="Uygulamaya Giriş Testi" name="Uygulamaya başarılı giriş testi senaryosu" time="26.222">
 <system-out><![CDATA[Given browser açıldı........................................................passed
 When kullanıcı edevlet adresine gider ve 26503940896 ile edevlet123 girer...passed
 Then kullanıcı giriş yapar ve tekrar çıkış yapar............................passed
